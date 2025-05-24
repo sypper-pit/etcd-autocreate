@@ -1,4 +1,3 @@
-markdown
 # etcd-auto-deploy
 
 Автоматизированный bash-скрипт для быстрого и безопасного развертывания узла etcd с конфигурацией через файл `/etc/etcd/etcd.conf.yml` и systemd.
