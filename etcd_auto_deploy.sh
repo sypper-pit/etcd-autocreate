@@ -9,9 +9,9 @@ CLUSTER_TOKEN="etcd-cluster"
 echo "==== ETCD Automated Installer (with /etc/etcd/etcd.conf.yml) ===="
 
 # --- 1. User Input ---
-read -p "Enter the name of this node (e.g., matrix-db0): " NODE_NAME
+read -p "Enter the name of this node (e.g., etcd-db0): " NODE_NAME
 read -p "Enter the IP or hostname of this node: " NODE_HOST
-read -p "Enter ALL cluster node hostnames or IPs, comma-separated (e.g., matrix-db0,matrix-db1,matrix-db2): " NODES_LIST
+read -p "Enter ALL cluster node hostnames or IPs, comma-separated (e.g., etcd-db0,etcd-db1,etcd-db2): " NODES_LIST
 read -p "Enter initial-cluster-state (new or existing): " CLUSTER_STATE
 
 # --- 2. Build initial-cluster string ---
